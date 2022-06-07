@@ -1,0 +1,188 @@
+html{
+
+	scroll-behavior: smooth;
+}
+.log{
+
+	background-image: url('images/Redbackground.jpg');
+}
+
+body{
+
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-attachment: scroll;
+}
+fieldset{
+	border-color: white;
+	border-style: double;
+	background-image: url('images/basicRed.jpg');
+	background-size: cover;
+	text-align: center;
+	width: 70%;
+    margin: 80px;
+}
+
+a {
+	color: #FFFFFF;
+
+}
+a:hover {
+	color: #FFA405;
+}
+
+.registerH1, .registerP{
+	color: white;
+	font-size: 20px;
+}
+
+label{
+	color: #FFEA00;
+}
+
+input{
+	border-color:gray;
+	background-color: lightgoldenrodyellow;
+	border-style: outset;
+}
+
+button{
+   background-color:#FFA405;;
+   color: white;
+   border-radius: 10px;
+   border-color: gray;
+   padding: 5px 20px;
+    display: inline-block;  
+	margin: 15px;
+
+    
+}
+#musicShop{
+	background-image: url('images/header.jpg');
+	font: 11px arial, sans-serif;
+}
+#topcon {
+	background-size: auto;
+	background: url(images/topcon.PNG) no-repeat;
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	color: #fff;
+  }
+  #topcon-inner {
+	margin: 30px;
+	height: 200px;
+
+  }
+  #topcon h2 {
+	font-size: 14px;
+  }
+
+  h1 {
+	padding: 10px 0 0 20px;
+	font: 32px "arial black", arial, sans-serif;
+	color: #151515;
+  }
+  
+  h1 em {
+	color: #ffffff;
+	font-weight: bold;
+	font-style: normal;
+	position: relative;
+	top: -4px;
+  }
+  
+
+#imgNotRobot{
+	width: 200px;
+}
+#nav {
+	position: absolute;
+	top: 0px;
+	left: 335px;
+	width: 500px;
+
+  }
+  #nav li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	background: url(images/nav_left.gif) no-repeat;
+	list-style: none;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 45px;
+	line-height: 1.1;
+  }
+  #nav span {
+	display: block;
+	font-size: 28px;
+  }
+
+  #musicShop fieldset{
+	  float: right;
+	  width: 380px;
+	  height: 470px;
+	  text-align: left;
+  }
+
+  h2{
+	  color: #FFEA00;
+	  text-align: justify;
+  }
+  ul{
+	  list-style-type: square;
+  }
+  
+  li{
+	  color: gray;
+  }
+
+  hr{
+	  border-color: #FFEA00;
+  }
+  
+  #jazz{
+	  width: 370px;
+  }
+
+  #menu{
+	background-image: url('images/basicRed.jpg');
+	background-attachment: fixed;
+  }
+
+  #menu p{
+
+	color: white;
+	margin-right: 20px;
+	text-align: justify;
+	font-size: 18px;
+  }
+
+  .covers{
+	  height: 300px;
+  }
+
+  pre{
+	  color: lightgoldenrodyellow;
+	  font-size: 18px;
+  }
+
+ 
+ 
+  
+
+
+
+ 
+ 
+  
+
+
+
+
+
+
+
+

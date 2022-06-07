@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Register</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">    
+</head>
+
+
+<body class="log">
+
+   <script src="script.js" type="text/JavaScript"></script> 
+
+   <fieldset>
+
+      <legend><img src="images/registerIcon.png" alt="registerIcon"></legend>
+  <form>
+   <h1 class="registerH1">Please enter your information as requested</h1>
+
+     <label for="userName">* Username: </label><br>
+     <input type="text" name="userName" id="userName" placeholder="Ozgenur"><br><br>
+
+
+     <label for="e-mail">* E-mail:</label><br>
+     <input type="e-mail" name="e-mail" id="e-mail" name="e-mail" id="e-mail" placeholder="abcde@hotmail.com"
+     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+
+
+     <label for="Password">* Password:</label><br>
+     <input type="password" name="Password" id="Password" id="password" placeholder="******" pattern="[A-za-z0-9]{6}" required><br><br>
+
+
+     <label for="confirmPassword">* Confirm Password:</label><br>
+
+     <input type="password" name="confirmPassword" id="confirmPassword" id="password" placeholder="******" pattern="[A-za-z0-9]{6}" required><br><br>
+
+
+     <p class="registerP">Gender</p>
+
+     <input type="radio" value="Woman" id="woman">
+     <label for="woman" >Woman</label>
+
+      <input type="radio" value="Man" id="man">
+     <label for="man">Man</label>
+
+      <input type="radio" value="Non" id="non">
+     <label for="non">Non Binary</label>
+
+     <p class="registerP">Birthday</p>
+     <input type="date" name="Birthday" style="border-color: white;"><br><br>
+
+     <a href="file:///C:/Users/%C3%96ZGENUR%20YILDIZ/Desktop/JavaScript/login.html">Go back to login panel &#128509</a><br>
+     <button type="submit">Submit</button>
+     <button type="reset" onclick="confirmBox()">Reset</button>
+
+     </fieldset>
+
+  </form>
+
+</body>
+</html>
+
